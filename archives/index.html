@@ -27,6 +27,8 @@
 
 
 
+  <link  rel="stylesheet" href="/lib/prettify/fluid.min.css" />
+
 <link  rel="stylesheet" href="/css/main.css" />
 
 
@@ -211,7 +213,7 @@
     loop: 'all',
     order: 'random',
     preload: 'auto',
-    audio: [{"name":"ᐇ","artist":"xx","url":"/songs/ᐇ.mp3","cover":"/img/preview.jpg"}]
+    audio: [{"name":"ᐇ","artist":"xx","url":"/songs/ᐇ.mp3","cover":"/img/preview.jpg"},{"name":"i lomo you","artist":"xx","url":"/songs/i lomo you.mp3","cover":"/img/preview.jpg"}]
   });
 </script>
 
@@ -275,6 +277,14 @@
 <!-- Plugins -->
 
 
+
+  <script  src="https://cdn.staticfile.org/prettify/188.0.0/prettify.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      $('pre').addClass('prettyprint  linenums');
+      prettyPrint();
+    })
+  </script>
 
 
 
